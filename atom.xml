@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[micheee]]></title>
+  <link href="http://micheee.github.com/atom.xml" rel="self"/>
+  <link href="http://micheee.github.com/"/>
+  <updated>2012-01-31T12:23:21+01:00</updated>
+  <id>http://micheee.github.com/</id>
+  <author>
+    <name><![CDATA[Michael Seiferle]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://micheee.github.com/blog/2012/01/28/hello-world/"/>
+    <updated>2012-01-28T11:54:00+01:00</updated>
+    <id>http://micheee.github.com/blog/2012/01/28/hello-world</id>
+    <content type="html"><![CDATA[<p>Yet another attempt at setting up a personal site. :-)</p>
+
+<!--more-->
+
+
+<p>Obviously this time it is due to <a href="http://octopress.org/" title="Octopress">octopress’s</a> appeal.</p>
+
+<figure class='code'><figcaption><span>This is a test  </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='xml'><span class='line'><span class="nt">&lt;hello&gt;&lt;world</span> <span class="nt">/&gt;&lt;/hello&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
+  
+</feed>
