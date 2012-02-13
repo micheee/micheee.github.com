@@ -1,0 +1,42 @@
+---
+layout: post
+title: "BaseX — XML Prague"
+date: 2012-02-13 11:20
+comments: true
+categories: BaseX XML Prague XQuery BaseX-Web
+---
+
+
+XML Prague 2012 is over. It has been a great, inspiring meetup, perfectly organized just as it was the year before.
+We are currently on our way back home, so I took the chance to write a little wrap-up, especially for those who couldn't make it to Prague. 
+But visitors of either the conference or our workshop are in particular invited to read on as well.
+
+This post will be updated once I arrive home, thus not all links and typos are fixed at the moment.
+And maybe I will even add some pics ;-)
+<!-- more -->
+
+BaseX Preconference Day  ★ XML Prague 2012
+-----------------------------------------
+
+After attending eXist’s slick workshop last year, we decided to do a BaseX user meeting in 2012 as well.
+
+We have been pretty busy preparing the Preconference Day thus we have been happy to see so many of our users there.
+Actually we nearly did not make it to the venue as our car refused to start, thanks to Prague’s -20°C nights.
+
+The schedule was tight and, hopefully, filled with interesting stuff.
+After [Alex](http://twitter.com/holualex) introduced himself and our team, [Christian](http://twitter.com/christiangruen) gave an initial overview on [BaseX’](http://basex.org/) functionalities and features.
+
+I myself provided a high-level look at the web architecture I’ve been working on recently.
+The slides I made with <code>impress.js</code> can be found either on xquery-webapp-skeleton @ GitHub or you may as well have a [look at them](/images/static/basex-web-slides/app/page/index.html#/) here, without the need to clone anything.
+These concepts have been superseded to some extent, as we opted to pursue [Adam’s](http://twitter.com/adamretter) approach of annotating RESTful endpoints directly in a controller.
+But anyway, the key ideas of using solely XML-technologies applies here as well.
+
+After an highly anticipated coffee break, Rosi equipped the audience with profound thoughts of our current XQuery module architecture, the EXPath repositories, and the built-in extension functions with: [BaseX XQuery Modules](#todo**TODO**)
+
+The formal schedule was concluded with Dimitar’s talk, covering the “The World of Indices” which was particularly interesting regarding chances and challenges of index updates. 
+This led to some nice *Q&A* regarding Do’s and Dont’s, anyway it was general consent that incremental indices are highly wanted, by both our users and our team.
+With the current release we added the <code>SET OPTINDEX on</code> option that enables *experimental* incremental updates for the <code>TEXT</code> and <code>ATTRIBUTE</code> indices. 
+We are confident that incremental updates to the full-text index will be added very soon.
+
+
+Just before lunch-time the guys from [28msec](http://28msec.com/) took the stage and showed off their impressive cloud architecture. 

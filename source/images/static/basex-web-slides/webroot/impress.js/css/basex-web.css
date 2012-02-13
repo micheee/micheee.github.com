@@ -1,0 +1,167 @@
+div#welcome {
+background: #fff url(../../images/BaseX.png) no-repeat fixed 0px 93px;
+}
+#contact h2 {
+  -webkit-transform: rotate(-5deg);
+  -moz-transform:    rotate(-5deg);
+  -ms-transform:     rotate(-5deg);
+  -o-transform:      rotate(-5deg);
+  transform:         rotate(-5deg);
+padding-left:2em;
+
+}
+img {
+  -webkit-box-shadow: 5px 5px 7px #888;
+  -webkit-border-radius: 15px;
+	border:15px solid white !important;
+
+}
+#welcome-to img {
+	-webkit-box-shadow: 0px 0px 0px #fff;
+  -webkit-border-radius: 0px;
+	border:0px solid white !important;
+	
+}
+.title dt {
+  font-weight: bold;
+font-variant:small-caps;
+}
+.title dd {
+  padding-left:1em;
+  color:#3d3d3d;
+}
+.step li {
+  list-style-type:square;
+  font-size:90%;
+}
+.slide h2 {
+  font-size:150%;
+  margin-bottom:1em;
+}
+
+pre{
+	font-size:50% !important;
+}
+pre.textmate-source.railscasts {
+	color: #E6E1DC;
+	background-color: #2B2B2B;
+}
+
+pre.textmate-source .linenum {
+	width: 75px;
+	padding: 0.1em 1em 0.2em 0;
+	color: #888;
+	background-color: #eee;
+}
+pre.textmate-source.railscasts span {
+   padding-top: 0.2em;
+   padding-bottom: 0.1em;
+}
+pre.textmate-source.railscasts ::selection {
+	background-color: rgba(90, 100, 126, 0.88);
+}
+/* Source */
+pre.textmate-source.railscasts .source {
+	background-color: #232323;
+}
+
+/* Comment */
+pre.textmate-source.railscasts .comment {
+	color: #BC9458;
+	font-style: italic;
+}
+
+/* Keyword */
+pre.textmate-source.railscasts .keyword, pre.textmate-source.railscasts .storage {
+	color: #CC7833;
+}
+
+/* Function (definition) */
+pre.textmate-source.railscasts .entity_name_function, pre.textmate-source.railscasts .keyword_other_name-of-parameter_objc {
+	color: #FFC66D;
+}
+
+/* Class (definition) */
+pre.textmate-source.railscasts .entity_name {
+	color: #FFFFFF;
+}
+
+/* Number */
+pre.textmate-source.railscasts .constant_numeric {
+	color: #A5C261;
+}
+
+/* Variable */
+pre.textmate-source.railscasts .variable_language, pre.textmate-source.railscasts .variable_other {
+	color: #D0D0FF;
+}
+
+/* Constant */
+pre.textmate-source.railscasts .constant {
+	color: #6D9CBE;
+}
+
+/* Constant (other variable) */
+pre.textmate-source.railscasts .variable_other_constant {
+	color: #DA4939;
+}
+
+/* Constant (built-in) */
+pre.textmate-source.railscasts .constant_language {
+	color: #6E9CBE;
+}
+
+/* String */
+pre.textmate-source.railscasts .string {
+	color: #A5C261;
+}
+
+/* Library function */
+pre.textmate-source.railscasts .support_function {
+	color: #DA4939;
+}
+
+/* Library type */
+pre.textmate-source.railscasts .support_type {
+	color: #6E9CBE;
+}
+
+/* Library constant */
+pre.textmate-source.railscasts .support_constant {
+	color: #A5C261;
+}
+
+/* Markup tag */
+pre.textmate-source.railscasts .meta_tag, pre.textmate-source.railscasts .declaration_tag, pre.textmate-source.railscasts .entity_name_tag, pre.textmate-source.railscasts .entity_other_attribute-name {
+	color: #E8BF6A;
+}
+
+/* Invalid */
+pre.textmate-source.railscasts .invalid {
+	color: #FFFFFF;
+	background-color: #990000;
+}
+
+/* String interpolation */
+pre.textmate-source.railscasts .constant_character_escaped, pre.textmate-source.railscasts .constant_character_escape, pre.textmate-source.railscasts .string .source, pre.textmate-source.railscasts .string .source_ruby {
+	color: #519F50;
+}
+
+/* Diff Add */
+pre.textmate-source.railscasts .markup_inserted {
+	color: #E6E1DC;
+	background-color: #144212;
+}
+
+/* Diff Remove */
+pre.textmate-source.railscasts .markup_deleted {
+	color: #E6E1DC;
+	background-color: #660000;
+}
+
+/* Diff Header */
+pre.textmate-source.railscasts .meta_diff_header, pre.textmate-source.railscasts .meta_separator_diff, pre.textmate-source.railscasts .meta_diff_index, pre.textmate-source.railscasts .meta_diff_range {
+	background-color: #2F33AB;
+}
+
+/* Localized */
