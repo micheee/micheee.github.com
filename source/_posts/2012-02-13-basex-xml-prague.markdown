@@ -3,6 +3,7 @@ layout: post
 title: "BaseX — XML Prague"
 date: 2012-02-13 11:20
 comments: true
+author: Michael Seiferle
 categories: BaseX XML Prague XQuery BaseX-Web
 ---
 
@@ -11,8 +12,7 @@ XML Prague 2012 is over. It has been a great, inspiring meetup, perfectly organi
 We are currently on our way back home, so I took the chance to write a little wrap-up, especially for those who couldn't make it to Prague. 
 But visitors of either the conference or our workshop are in particular invited to read on as well.
 
-This post will be updated once I arrive home, thus not all links and typos are fixed at the moment.
-And maybe I will even add some pics ;-)
+**Attention:** I am still waiting for the slides, thus it may take a day until everything is online. 
 <!-- more -->
 
 BaseX Preconference Day  ★ XML Prague 2012
@@ -33,10 +33,22 @@ But anyway, the key ideas of using solely XML-technologies applies here as well.
 
 After an highly anticipated coffee break, Rosi equipped the audience with profound thoughts of our current XQuery module architecture, the EXPath repositories, and the built-in extension functions with: [BaseX XQuery Modules](#todo**TODO**)
 
-The formal schedule was concluded with Dimitar’s talk, covering the “The World of Indices” which was particularly interesting regarding chances and challenges of index updates. 
+{% pullquote %}
+The formal schedule was concluded with Dimitar’s talk, covering the “The World of Indices” which was particularly interesting regarding chances and challenges of index updates.
+{"Incremental updates are on their way."}
 This led to some nice *Q&A* regarding Do’s and Dont’s, anyway it was general consent that incremental indices are highly wanted, by both our users and our team.
 With the current release we added the <code>SET OPTINDEX on</code> option that enables *experimental* incremental updates for the <code>TEXT</code> and <code>ATTRIBUTE</code> indices. 
 We are confident that incremental updates to the full-text index will be added very soon.
+{%endpullquote%}
 
 
 Just before lunch-time the guys from [28msec](http://28msec.com/) took the stage and showed off their impressive cloud architecture. 
+
+Pictures
+--------
+{% img  /images/XML-Prague-2012/Rosi.jpg 150 200 Rosis talk %}
+{% img  /images/XML-Prague-2012/accomodation.jpg 200 150 Our hotel %}
+{% img  /images/XML-Prague-2012/moldau.jpg 200 150 Vltava %}
+{% img  /images/XML-Prague-2012/conference-dinner.jpg 150 200 Conference Dinner %}
+
+Please make also sure to have a look at the [proceedings for XML Prague 2012](http://www.xmlprague.cz/2012/files/xmlprague-2012-proceedings.pdf "XML Prague Proceedings")
