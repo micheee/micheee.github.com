@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[micheee]]></title>
-  <link href="http://micheee.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: BaseX | micheee]]></title>
+  <link href="http://micheee.github.com/blog/categories/basex/atom.xml" rel="self"/>
   <link href="http://micheee.github.com/"/>
   <updated>2012-02-14T11:44:51+01:00</updated>
   <id>http://micheee.github.com/</id>
@@ -19,7 +19,7 @@
     <updated>2012-02-13T11:20:00+01:00</updated>
     <id>http://micheee.github.com/blog/2012/02/13/basex-xml-prague</id>
     <content type="html"><![CDATA[<p>XML Prague 2012 is over. It has been a great, inspiring meetup, perfectly organized just as it was the year before.
-We are currently on our way back home, so I took the chance to write a little wrap-up, especially for those who couldn&#8217;t make it to Prague.
+We are currently on our way back home, so I took the chance to write a little wrap-up, especially for those who couldn't make it to Prague.
 But visitors of either the conference or our workshop are in particular invited to read on as well.</p>
 
 <p><strong>Please note:</strong> I’ll soon update this post with the slides we have shown. :-)</p>
@@ -38,7 +38,7 @@ Actually we nearly did not make it to the venue as our car refused to start, tha
 After <a href="http://twitter.com/holualex">Alex</a> introduced himself and our team, <a href="http://twitter.com/christiangruen">Christian</a> gave an initial overview on <a href="http://basex.org/">BaseX’</a> functionalities and features.</p>
 
 <p>I myself provided a high-level look at the web architecture I’ve been working on recently.
-The slides I made with <code>impress.js</code> can be found either on xquery-webapp-skeleton @ GitHub or you may as well have a <a href="http://micheee.github.com/images/static/basex-web-slides/app/page/index.html#/">look at them</a> here, without the need to clone anything.
+The slides I made with <code>impress.js</code> can be found either on xquery-webapp-skeleton @ GitHub or you may as well have a <a href="/images/static/basex-web-slides/app/page/index.html#/">look at them</a> here, without the need to clone anything.
 These concepts have been superseded to some extent, as we opted to pursue <a href="http://twitter.com/adamretter">Adam’s</a> approach of annotating RESTful endpoints directly in a controller.
 But anyway, the key ideas of using solely XML-technologies applies here as well.</p>
 
@@ -56,34 +56,12 @@ We are confident that incremental updates to the full-text index will be added v
 
 <h2>Pictures</h2>
 
-<p><img src="http://micheee.github.com/images/XML-Prague-2012/Rosi.jpg" width="150" height="200" title="Rosis talk" >
-<img src="http://micheee.github.com/images/XML-Prague-2012/accomodation.jpg" width="200" height="150" title="Our hotel" >
-<img src="http://micheee.github.com/images/XML-Prague-2012/moldau.jpg" width="200" height="150" title="Vltava" >
-<img src="http://micheee.github.com/images/XML-Prague-2012/conference-dinner.jpg" width="150" height="200" title="Conference Dinner" ></p>
+<p><img src="/images/XML-Prague-2012/Rosi.jpg" width="150" height="200" title="Rosis talk" >
+<img src="/images/XML-Prague-2012/accomodation.jpg" width="200" height="150" title="Our hotel" >
+<img src="/images/XML-Prague-2012/moldau.jpg" width="200" height="150" title="Vltava" >
+<img src="/images/XML-Prague-2012/conference-dinner.jpg" width="150" height="200" title="Conference Dinner" ></p>
 
 <p>Please make also sure to have a look at the <a href="http://www.xmlprague.cz/2012/files/xmlprague-2012-proceedings.pdf" title="XML Prague Proceedings">proceedings for XML Prague 2012</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://micheee.github.com/blog/2012/01/28/hello-world/"/>
-    <updated>2012-01-28T11:54:00+01:00</updated>
-    <id>http://micheee.github.com/blog/2012/01/28/hello-world</id>
-    <content type="html"><![CDATA[<p>Yet another attempt at setting up a personal site. :-)</p>
-
-<!--more-->
-
-
-<p>Obviously this time it is due to <a href="http://octopress.org/" title="Octopress">octopress’s</a> appeal.</p>
-
-<figure class='code'><figcaption><span>This is a test  </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='xml'><span class='line'><span class="nt">&lt;hello&gt;&lt;world</span> <span class="nt">/&gt;&lt;/hello&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-
 ]]></content>
   </entry>
   
