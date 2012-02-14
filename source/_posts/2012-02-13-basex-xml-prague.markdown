@@ -37,7 +37,7 @@ After an highly anticipated coffee break, Rosi equipped the audience with profou
 The formal schedule was concluded with Dimitar’s talk, covering the “The World of Indices” which was particularly interesting regarding chances and challenges of index updates.
 {"Incremental updates are on their way."}
 This led to some nice *Q&A* regarding Do’s and Dont’s, anyway it was general consent that incremental indices are highly wanted, by both our users and our team.
-With the current release we added the <code>SET OPTINDEX on</code> option that enables *experimental* incremental updates for the <code>TEXT</code> and <code>ATTRIBUTE</code> indices. 
+With the current release we added the <code>SET UPDINDEX on</code> option (see [BaseX Wiki] for more details) that enables incremental updates for the <code>TEXT</code> and <code>ATTRIBUTE</code> indices. 
 We are confident that incremental updates to the full-text index will be added very soon.
 {%endpullquote%}
 
@@ -52,3 +52,5 @@ Pictures
 {% img  /images/XML-Prague-2012/conference-dinner.jpg 150 200 Conference Dinner %}
 
 Please make also sure to have a look at the [proceedings for XML Prague 2012](http://www.xmlprague.cz/2012/files/xmlprague-2012-proceedings.pdf "XML Prague Proceedings")
+
+[BaseX Wiki]: http://docs.basex.org/wiki/Options#UPDINDEX [BaseX Documentation: Options]
