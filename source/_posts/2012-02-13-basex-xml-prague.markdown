@@ -14,7 +14,7 @@ But visitors of either the conference or our workshop are in particular invited 
 
 **Please note:** I’ll soon update this post with the slides we have shown. :-)
 
-**February 15:** Rositsa’s slides on XQuery modules have been added.
+**February 15:** Rositsa’s slides on XQuery modules have been added. Dimitar’s slides on indexing have been added.
 <!-- more -->
 
 BaseX Preconference Day  ★ XML Prague 2012
@@ -36,7 +36,7 @@ But anyway, the key ideas of using solely XML-technologies applies here as well.
 After an highly anticipated coffee break, Rosi equipped the audience with profound thoughts of our current XQuery module architecture, the EXPath repositories, and the built-in extension functions with: [Rositsa Shadura: XQuery Modules in BaseX](/images/XML-Prague-2012/BaseX-XQuery-Modules.pdf)
 
 {% pullquote %}
-The formal schedule was concluded with Dimitar’s talk, covering the “The World of Indices” which was particularly interesting regarding chances and challenges of index updates.
+The formal schedule was concluded with Dimitar’s talk, covering the “[The World of Indices](/images/XML-Prague-2012/indexes-basex-dimitar.pdf)” which was particularly interesting regarding chances and challenges of index updates.
 {"Incremental updates are on their way."}
 This led to some nice *Q&A* regarding Do’s and Dont’s, anyway it was general consent that incremental indices are highly wanted, by both our users and our team.
 With the current release we added the <code>SET UPDINDEX on</code> option (see [BaseX Wiki] for more details) that enables incremental updates for the <code>TEXT</code> and <code>ATTRIBUTE</code> indices. 
