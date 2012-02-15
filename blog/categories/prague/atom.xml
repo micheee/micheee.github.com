@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Prague | micheee]]></title>
   <link href="http://micheee.github.com/blog/categories/prague/atom.xml" rel="self"/>
   <link href="http://micheee.github.com/"/>
-  <updated>2012-02-14T11:44:51+01:00</updated>
+  <updated>2012-02-15T10:08:01+01:00</updated>
   <id>http://micheee.github.com/</id>
   <author>
     <name><![CDATA[Michael Seiferle]]></name>
@@ -42,15 +42,16 @@ The slides I made with <code>impress.js</code> can be found either on xquery-web
 These concepts have been superseded to some extent, as we opted to pursue <a href="http://twitter.com/adamretter">Adam’s</a> approach of annotating RESTful endpoints directly in a controller.
 But anyway, the key ideas of using solely XML-technologies applies here as well.</p>
 
-<p>After an highly anticipated coffee break, Rosi equipped the audience with profound thoughts of our current XQuery module architecture, the EXPath repositories, and the built-in extension functions with: <a href="#todo**TODO**">BaseX XQuery Modules</a></p>
+<p>After an highly anticipated coffee break, Rosi equipped the audience with profound thoughts of our current XQuery module architecture, the EXPath repositories, and the built-in extension functions with: <a href="/images/XML-Prague-2012/BaseX-XQuery-Modules.pdf">Rositsa Shadura: XQuery Modules in BaseX</a></p>
 
 <p><span class='pullquote-right' data-pullquote='Incremental updates are on their way.'>
 The formal schedule was concluded with Dimitar’s talk, covering the “The World of Indices” which was particularly interesting regarding chances and challenges of index updates.
 Incremental updates are on their way.
 This led to some nice <em>Q&amp;A</em> regarding Do’s and Dont’s, anyway it was general consent that incremental indices are highly wanted, by both our users and our team.
 With the current release we added the <code>SET UPDINDEX on</code> option (see <a href="http://docs.basex.org/wiki/Options#UPDINDEX">BaseX Wiki</a> for more details) that enables incremental updates for the <code>TEXT</code> and <code>ATTRIBUTE</code> indices.
-We are confident that incremental updates to the full-text index will be added very soon.
-</span></p>
+We are confident that incremental updates to the full-text index will be added very soon.</p>
+
+<p></span></p>
 
 <p>Just before lunch-time the guys from <a href="http://28msec.com/">28msec</a> took the stage and showed off their impressive cloud architecture.</p>
 
