@@ -31,7 +31,7 @@ The slides I made with <code>impress.js</code> can be found either on xquery-web
 These concepts have been superseded to some extent, as we opted to pursue [Adam’s](http://twitter.com/adamretter) approach of annotating RESTful endpoints directly in a controller.
 But anyway, the key ideas of using solely XML-technologies applies here as well.
 
-After an highly anticipated coffee break, Rosi equipped the audience with profound thoughts of our current XQuery module architecture, the EXPath repositories, and the built-in extension functions with: [BaseX XQuery Modules](#todo**TODO**)
+After an highly anticipated coffee break, Rosi equipped the audience with profound thoughts of our current XQuery module architecture, the EXPath repositories, and the built-in extension functions with: [Rositsa Shadura: XQuery Modules in BaseX](/images/XML-Prague-2012/BaseX-XQuery-Modules.pdf)
 
 {% pullquote %}
 The formal schedule was concluded with Dimitar’s talk, covering the “The World of Indices” which was particularly interesting regarding chances and challenges of index updates.
@@ -39,6 +39,7 @@ The formal schedule was concluded with Dimitar’s talk, covering the “The Wor
 This led to some nice *Q&A* regarding Do’s and Dont’s, anyway it was general consent that incremental indices are highly wanted, by both our users and our team.
 With the current release we added the <code>SET UPDINDEX on</code> option (see [BaseX Wiki] for more details) that enables incremental updates for the <code>TEXT</code> and <code>ATTRIBUTE</code> indices. 
 We are confident that incremental updates to the full-text index will be added very soon.
+
 {%endpullquote%}
 
 
