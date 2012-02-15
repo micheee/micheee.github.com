@@ -14,7 +14,7 @@ But visitors of either the conference or our workshop are in particular invited 
 
 **Please note:** I’ll soon update this post with the slides we have shown. :-)
 
-**Please note:** February 15: Rositsa’s slides on XQuery modules have been added.
+**February 15:** Rositsa’s slides on XQuery modules have been added.
 <!-- more -->
 
 BaseX Preconference Day  ★ XML Prague 2012
